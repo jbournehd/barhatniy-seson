@@ -219,7 +219,7 @@ li {
     max-width: 100%;
     margin-top: 10px;
 
-    font-size: clamp(40px, 7vw, 88px);
+    font-size: 75px;
     line-height: 0.95;
     font-weight: 500;
     letter-spacing: clamp(1px, 0.7vw, 2px);
@@ -282,7 +282,7 @@ li {
     margin: 0px 0px 40px 18px;
 
     font-family: "Cormorant Garamond", Georgia, serif;
-    font-size: clamp(28px, 3vw, 40px);
+    font-size: 35px;
     line-height: 1.1;
     font-weight: 700;
     color: var(--dark_gold);
