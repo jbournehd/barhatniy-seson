@@ -90,8 +90,6 @@ main {
     color: var(--gray_text);
 }
 
-/* LOGO */
-
 .logo {
     position: relative;
     display: inline-block;
@@ -168,8 +166,6 @@ main {
     color: var(--sexy_purple);
     font-weight: 700;
 }
-
-/* TEXT */
 
 .paragraph {
     max-width: 105ch;
@@ -290,7 +286,6 @@ li {
     text-align: center;
 }
 
-/* PROGRAM */
 
 .program {
     max-width: 105ch;
@@ -436,8 +431,6 @@ li {
     border-color: var(--even_lighter_green);
 }
 
-/* TABLET */
-
 @media (max-width: 800px) {
     body {
         padding: 20px 90px 48px;
@@ -489,8 +482,6 @@ li {
         text-align: center;
     }
 }
-
-/* PHONE */
 
 @media (max-width: 480px) {
     body {
