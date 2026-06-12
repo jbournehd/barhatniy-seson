@@ -3,6 +3,7 @@ FOLDER STRUCTURE
 ====================
 .
 |-- .git
+|   |-- COMMIT_EDITMSG
 |   |-- HEAD
 |   |-- branches
 |   |-- config
@@ -32,8 +33,42 @@ FOLDER STRUCTURE
 |   |       |   `-- main
 |   |       `-- remotes
 |   |           `-- origin
-|   |               `-- HEAD
+|   |               |-- HEAD
+|   |               `-- main
 |   |-- objects
+|   |   |-- 01
+|   |   |   `-- 6541bba8e83236e2043ebfb4c8c465d05e2665
+|   |   |-- 10
+|   |   |   `-- 77a8371658f81ac84b9fd103999732ddb17700
+|   |   |-- 13
+|   |   |   `-- eb4925daa41c026f192d3489d77de40e702399
+|   |   |-- 22
+|   |   |   `-- ea0e4f138493e15fef7de904f41f0b784ac724
+|   |   |-- 2e
+|   |   |   `-- 37fda5bbb06a7a00b5aea5de73d66db2233b06
+|   |   |-- 49
+|   |   |   `-- abb9c9d3d5326cf27960ee38865a9fba266c1c
+|   |   |-- 5d
+|   |   |   `-- 12575d664c6c27d764bf7dfa11fd7c6bf382f7
+|   |   |-- 67
+|   |   |   `-- f5d31e7083338770dc9c856008debc4f4b1930
+|   |   |-- 68
+|   |   |   `-- 5bb1bf844ae61ec0df396a9b594eb5fa4ea745
+|   |   |-- 6b
+|   |   |   `-- 445bbc3eee238c913c1cafd2972242a8dc0d27
+|   |   |-- 6d
+|   |   |   `-- 1e840c451c96be3b2e0867980399008a96bb33
+|   |   |-- 8d
+|   |   |   `-- 68c4195e45363df45282b9f9869eaf2346e54d
+|   |   |-- 9d
+|   |   |   |-- 214ce8afcf706f0bb6863eb638ceca165dfd3b
+|   |   |   `-- 6f144448f5e7a9ede4ed6376a74b6844a70ba4
+|   |   |-- ae
+|   |   |   `-- dd9365cec96f6484aaa7d00bcb0e13c6b9d835
+|   |   |-- af
+|   |   |   `-- 6ad4b5ea202a29895f60440c1463530886f74f
+|   |   |-- ff
+|   |   |   `-- c54429333630c4f14d5a96006c79411938cb6a
 |   |   |-- info
 |   |   `-- pack
 |   |       |-- pack-a5dc98a8b44207e81cc336919a5469e289d1456e.idx
@@ -45,7 +80,8 @@ FOLDER STRUCTURE
 |       |   `-- main
 |       |-- remotes
 |       |   `-- origin
-|       |       `-- HEAD
+|       |       |-- HEAD
+|       |       `-- main
 |       `-- tags
 |-- .gitignore
 |-- .prettierrc
@@ -74,7 +110,7 @@ FOLDER STRUCTURE
     `-- css
         `-- style.css
 
-24 directories, 48 files
+40 directories, 68 files
 
 ====================
 FILE CONTENTS
