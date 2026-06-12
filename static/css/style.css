@@ -484,7 +484,7 @@ li {
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 400px) {
     body {
         min-height: 100vh;
         padding: 14px 33px 40px;
