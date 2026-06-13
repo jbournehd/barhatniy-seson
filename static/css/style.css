@@ -31,7 +31,7 @@ body {
     padding: 38px clamp(16px, 4vw, 72px) 64px;
 
     font-family: "Montserrat", Arial, sans-serif;
-    font-size: clamp(18px, 1.4vw, 18px);
+    font-size: clamp(17px, 1.4vw, 17px);
     line-height: 1.55;
 
     background: transparent;
@@ -175,8 +175,9 @@ main {
 }
 
 .date {
+    font-family: "Montserrat", Arial, sans-serif;
     color: var(--sexy_purple);
-    font-weight: 700;
+    font-weight: 600;
 }
 
 .paragraph {
@@ -303,7 +304,6 @@ li {
     margin: 38px auto 0;
 
     font-family: "Montserrat", Arial, sans-serif;
-    font-size: 16px;
     line-height: 1.45;
     text-align: left;
 }
@@ -455,7 +455,7 @@ li {
 @media (max-width: 900px) and (min-aspect-ratio: 1 / 1) {
     body {
         padding: 20px 90px 48px;
-        font-size: clamp(17px, 2vw, 17px);
+        font-size: clamp(16px, 2vw, 16px);
     }
 
     .flexbox_vertical,
@@ -477,10 +477,6 @@ li {
 
     .paragraph {
         text-align: left;
-    }
-
-    .program {
-        font-size: 13px;
     }
 
     .program p:not(.header_small):not(.header_day) {
@@ -521,7 +517,7 @@ li {
         min-height: 100svh;
         padding: 14px 33px 40px;
 
-        font-size: (15px, 2vw, 15px);
+        font-size: (14px, 2vw, 14px);
         line-height: 1.65;
     }
 
@@ -532,6 +528,16 @@ li {
         background-repeat: no-repeat;
     }
 
+    p {
+        display: block !important;
+    }
+
+    .schedule_time {
+        display: block;
+        width: 100%;
+        margin-bottom: 8px;
+    }
+
     .flexbox_vertical,
     main {
         gap: 0px;
@@ -540,7 +546,6 @@ li {
     .frame {
         margin-top: 35px;
         margin-bottom: 35px;
-        padding: 24px 18px;
         border-width: 3px;
     }
 
@@ -620,7 +625,6 @@ li {
 
     .program {
         margin-top: 30px;
-        font-size: 12px;
         line-height: 1.45;
     }
 
@@ -657,7 +661,6 @@ li {
     }
 
     .schedule_time {
-        font-size: 11px;
         font-weight: 800;
     }
 
